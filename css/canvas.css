@@ -1,0 +1,30 @@
+@font-face {
+    font-family: bloodFont;
+    src: url(../resources/bloodlustexpand.ttf);
+}
+
+html {
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+}
+
+canvas {
+	margin: auto;
+    display: block;
+    border: 4px solid #aaaaaa;
+    left: 50%;
+    /*background: #dddddd;*/
+}
+
+button {
+    /*visibility: hidden;*/
+    border-style: none;
+    text-align: center;
+    outline: 0;
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}

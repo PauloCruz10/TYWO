@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<head>
+    <title>TYWO - Try Your Way Out</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="../css/escolhaPersonagemS.css">
+    <script type="text/javascript" src="../code/escolhaPersonagemS.js"></script>
+</head>
+
+<body>
+    <form id = "enterName">
+    Enter your name:<br>
+    <input type="text" id="playerName">
+    <br>
+    </form>
+
+	<p id = "choose">Choose the character:</p>
+
+    <label>
+        <select id="selectC" onChange="swapImage()">
+          <option value="boneco">Boy</option>
+          <option value="boneca">Girl</option>
+          <option value="soldado">Soldier</option>
+        </select>
+    </label>
+
+    <button id="soundBtn"><img src="../resources/soundOnBtn.png" id="soundBtnImg"></button>
+    <img src="../resources/bonecoF.png" id="characterImg">
+    <button id="backBtn"><img src="../resources/backBtn.png" id="backBtnImg"></button>
+    <button id="beginBtn"><img src="../resources/beginBtn.png" id="beginBtnImg"></button>
+
+</body>

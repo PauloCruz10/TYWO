@@ -1,0 +1,122 @@
+@font-face {
+    font-family: bloodFont;
+    src: url(../resources/bloodlustexpand.ttf);
+}
+
+body{
+    right: 50%;
+    background-image: url("../resources/bloodBack2.png"), url("../resources/preto.png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+#titulo {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: default;
+    font: bold 20px helvetica;
+    right: -400px;
+    top: 10px;
+}
+
+button {
+    border-style: none;
+    text-align: center;
+    outline: 0;
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+#enterName{
+    position: absolute;
+    cursor: default;
+    color: #800000;
+    font: bold 40px bloodFont;
+    left: 38%;
+    top: 22%;    
+}
+
+#playerName{
+    padding:9px;
+    margin: 0;
+    border-radius:5px;
+    -webkit-box-shadow: 
+        0 0px 0 #ccc,
+        0 0px #fff inset;
+    color:black;
+    border:none;
+    outline:none;
+    font: bold 25px bloodFont;
+    border: 5px solid #800000;
+}
+
+#choose{
+    position: absolute;
+    cursor: default;
+    color: #800000;
+    font: bold 40px bloodFont;
+    left: 38%;
+    top: 30%;
+}
+
+#selectC{
+    padding:9px;
+    margin: 0;
+    border-radius:5px;
+    -webkit-box-shadow: 
+        0 0px 0 #ccc,
+        0 0px #fff inset;
+    background: url('http://i45.tinypic.com/309nb74.png') no-repeat right, -moz-linear-gradient(top, #FBFBFB 0%, #E9E9E9 100%);
+    background: url('http://i45.tinypic.com/309nb74.png') no-repeat right, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FBFBFB), color-stop(100%,#E9E9E9));
+    color:black;
+    border:none;
+    outline:none;
+    font: bold 30px bloodFont;
+    display: inline-block;
+    -webkit-appearance:none; 
+    cursor:pointer;
+    border: 5px solid #800000;
+
+    position: absolute;
+    width: 8%;
+    left: 40%;
+    top: 45%;
+}
+
+#soundBtnImg{
+    position: absolute;
+    left: 69%;
+    top: 64%;
+    width: 5%;
+    height: 10%;
+}
+
+#backBtnImg{
+    position: absolute;
+    left: 27%;
+    top: 64%;
+    width: 5%;
+    height: 10%;
+}
+
+#beginBtnImg{
+    position: absolute;
+    left: 45%;
+    top: 58%;
+    width: 7%;
+    height: 10%;
+}
+
+#characterImg{
+    position: absolute;
+    left: 50%;
+    top: 43%;
+    width: 7%;
+    height: 14%;
+}

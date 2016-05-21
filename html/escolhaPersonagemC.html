@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<head>
+    <title>TYWO - Try Your Way Out</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="../css/escolhaPersonagemC.css">
+    <script type="text/javascript" src="../code/escolhaPersonagemC.js"></script>
+</head>
+
+<body onload="setStates()">
+    <p id = "chooseL">Choose the level <br> you want:</p>
+
+    <select id="selectL" onChange="swapImage2()">
+      <option value="null">Choose</option>
+      <option value="Level 1" id = "Level 1">Level 1</option>
+      <option value="Level 2" id = "Level 2">Level 2</option>
+      <option value="Level 3" id = "Level 3">Level 3</option>
+      <option value="Level 4" id = "Level 4">Level 4</option>
+      <option value="Level 5" id = "Level 5">Level 5</option>
+    </select>
+
+	<p id = "choose">Choose the character:</p>
+
+    <select id="selectC" onChange="swapImage()">
+      <option value="boneco">Boy</option>
+      <option value="boneca">Girl</option>
+      <option value="soldado">Soldier</option>
+    </select>
+
+    <p id = "chooseM">Choose one created <br> map:</p>
+
+    <select id="selectM" onChange="swapText()">
+        <option value="null">Choose</option>
+    </select>
+
+    <button id="soundBtn"><img src="../resources/soundOnBtn.png" id="soundBtnImg"></button>
+    <img src="../resources/bonecoF.png" id="characterImg">
+    <img id="levelImg">
+    <button id="backBtn"><img src="../resources/backBtn.png" id="backBtnImg"></button>
+    <button id="beginBtn"><img src="../resources/beginBtn.png" id="beginBtnImg"></button>
+
+</body>

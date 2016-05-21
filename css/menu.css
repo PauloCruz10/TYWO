@@ -1,0 +1,90 @@
+@font-face {
+    font-family: bloodFont;
+    src: url(../resources/bloodlustexpand.ttf);
+}
+
+body{
+    right: 50%;
+    background-image: url("../resources/bloodBack.png"), url("../resources/blood.gif");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+button {
+    border-style: none;
+    text-align: center;
+    outline: 0;
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+#titulo{
+    position: absolute;
+    cursor: default;
+    color: green;
+    font: bold 55px bloodFont;
+    left: 32%;
+    top: -3%;
+}
+
+#playImg{
+    position: absolute;
+    left: 45%;
+    top: 21%;
+    width: 8%;
+    height: 10%;
+}
+#creditsImg{
+    position: absolute;
+    left: 44%;
+    top: 31%;
+    width: 10%;
+    height: 10%;
+}
+#helpImg{
+    position: absolute;
+    left: 45%;
+    top: 41%;
+    width: 8%;
+    height: 10%;
+}
+#optionsImg{
+    position: absolute;
+    left: 44%;
+    top: 51%;
+    width: 10%;
+    height: 10%;
+}
+
+#rankingImg{
+    position: absolute;
+    left: 44%;
+    top: 61%;
+    width: 10%;
+    height: 10%;
+}
+
+#soundBtnImg{
+    position: absolute;
+    left: 69%;
+    top: 64%;
+    width: 5%;
+    height: 10%;
+}
+button .text {
+    display: none;
+}
+
+button:hover .text {
+    display: block;
+}
+
+button:hover .name {
+    display: none;
+}
+
+button:hover {
+
+}

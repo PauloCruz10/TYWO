@@ -1,0 +1,130 @@
+@font-face {
+    font-family: bloodFont;
+    src: url(../resources/bloodlustexpand.ttf);
+}
+
+body{
+    right: 50%;
+    background-image: url("../resources/bloodBack2.png"), url("../resources/preto.png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+#titulo {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: default;
+    font: bold 20px helvetica;
+    right: -400px;
+    top: 10px;
+}
+
+button {
+    border-style: none;
+    text-align: center;
+    outline: 0;
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+#soundBtnImg{
+    position: absolute;
+    left: 69%;
+    top: 64%;
+    width: 5%;
+    height: 10%;
+}
+
+#backBtnImg{
+    position: absolute;
+    left: 27%;
+    top: 64%;
+    width: 5%;
+    height: 10%;
+}
+
+#volumemais{
+    position: absolute;
+    left: 60%;
+    top: 31%;
+    width: 5%;
+    height: 10%;
+}
+
+#volumemenos{
+    position: absolute;
+    left: 36%;
+    top: 31%;
+    width: 4%;
+    height: 10%;
+}
+
+#volume {
+    position: absolute;
+    left: 41%;
+    top: 16%;
+    color: #800000;
+    font: bold 45px bloodFont;
+}
+
+#volumeDif {
+    position: absolute;
+    left: 45%;
+    top: 31%;
+    width: 10%;
+    height: 10%;
+}
+
+#musica {
+    position: absolute;
+    left: 34%;
+    top: 37%;
+    color: #800000;
+    font: bold 45px bloodFont;
+}
+
+#nomeMusica {
+    position: absolute;
+    left: 40%;
+    top: 48%;
+    color: white;
+    font: bold 35px bloodFont;
+}
+
+#musicBack{
+    position: absolute;
+    left: 34%;
+    top: 50%;
+    width: 4%;
+    height: 10%;
+}
+
+#musicFront{
+    position: absolute;
+    left: 62%;
+    top: 50%;
+    width: 4%;
+    height: 10%;
+}
+
+button .text {
+    display: none;
+}
+
+button:hover .text {
+    display: block;
+}
+
+button:hover .name {
+    display: none;
+}
+
+button:hover {
+
+}

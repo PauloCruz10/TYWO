@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<head>
+    <title>TYWO - Try Your Way Out</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="../css/ajuda.css">
+    <script type="text/javascript" src="../code/ajuda.js"></script>
+</head>
+
+<body>
+
+	<p id = "choose">Choose the game mode you need help:</p>
+
+	<p id ="text"></p>
+
+    <select id="select" onChange="swapText()">
+        <option value="help">"Game mode"</option>
+        <option value="helpM">Multiplayer</option>
+        <option value="helpS">Survival</option>
+        <option value="helpC">Campaign</option>
+    </select>
+
+    <button id="soundBtn"><img src="../resources/soundOnBtn.png" id="soundBtnImg"></button>
+    <button id="backBtn"><img src="../resources/backBtn.png" id="backBtnImg"></button>
+
+</body>

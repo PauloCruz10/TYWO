@@ -1,0 +1,69 @@
+@font-face {
+    font-family: bloodFont;
+    src: url(../resources/bloodlustexpand.ttf);
+}
+
+body{
+    right: 50%;
+    background-image: url("../resources/blood.gif");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+button {
+    border-style: none;
+    text-align: center;
+    outline: 0;
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+#soundBtnImg{
+    position: absolute;
+    left: 69%;
+    top: 64%;
+    width: 5%;
+    height: 10%;
+}
+
+#backBtnImg{
+    position: absolute;
+    left: 27%;
+    top: 64%;
+    width: 5%;
+    height: 10%;
+}
+
+#survivalBtnImg {
+    position: absolute;
+    left: 40%;
+    top: 10%;
+    font: bold 50px bloodFont;
+    border-radius: 12px;
+}
+
+#campaignBtnImg {
+    position: absolute;
+    left: 40%;
+    top: 25%;
+    font: bold 50px bloodFont;
+    border-radius: 12px;
+}
+
+#multiplayerBtnImg {
+    position: absolute;
+    left: 40%;
+    top: 40%;
+    font: bold 50px bloodFont;
+    border-radius: 12px;
+}
+
+#buildMapBtnImg {
+    position: absolute;
+    left: 40%;
+    top: 55%;
+    font: bold 50px bloodFont;
+    border-radius: 12px;
+}

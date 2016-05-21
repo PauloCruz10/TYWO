@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<head>
+    <title>TYWO - Try Your Way Out</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="../css/escolhaPersonagemM.css">
+    <script type="text/javascript" src="../code/escolhaPersonagemM.js"></script>
+</head>
+
+<body>
+    <form id = "enterName1">
+    Player 1:<br>
+    <input type="text" id="player1Name">
+    <br>
+    </form>
+
+    <form id = "enterName2">
+    Player 2:<br>
+    <input type="text" id="player2Name">
+    <br>
+    </form>
+
+	<p id = "choose">Choose the characters:</p>
+
+    <select id="selectC1" onChange="swapImage1()">
+      <option value="boneco">Boy</option>
+      <option value="boneca">Girl</option>
+      <option value="soldado">Soldier</option>
+      <option value="zombie">Zombie</option>
+    </select>
+
+    <select id="selectC2" onChange="swapImage2()">
+      <option value="boneco">Boy</option>
+      <option value="boneca">Girl</option>
+      <option value="soldado">Soldier</option>
+      <option value="zombie">Zombie</option>
+    </select>
+
+    <button id="soundBtn"><img src="../resources/soundOnBtn.png" id="soundBtnImg"></button>
+    <button id="character1Btn"><img src="../resources/bonecoF.png" id="character1BtnImg"></button>
+    <button id="character2Btn"><img src="../resources/bonecoF.png" id="character2BtnImg"></button>
+    <button id="backBtn"><img src="../resources/backBtn.png" id="backBtnImg"></button>
+    <button id="beginBtn"><img src="../resources/beginBtn.png" id="beginBtnImg"></button>
+
+</body>

@@ -1,0 +1,25 @@
+html,body
+{
+	margin: 0px;
+	overflow:hidden;
+	height: 100%;
+	width: 100%;
+}
+
+iframe
+{	
+	margin: auto;
+	border: none;
+	overflow:hidden;
+	height: 100%;
+	width: 100%;
+}
+
+iframe
+{
+	background-color: transparent;
+}
+
+* {
+    outline: 0;
+}

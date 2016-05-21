@@ -1,0 +1,133 @@
+@font-face {
+    font-family: bloodFont;
+    src: url(../resources/bloodlustexpand.ttf);
+}
+
+canvas {
+    margin: auto;
+    display: block;
+    border: 4px solid #aaaaaa;
+    left: 50%;
+}
+
+body{
+    background-image: url("../resources/preto.png");
+    background-size: 50%;
+}
+
+#titulo {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: default;
+    font: bold 20px helvetica;
+    right: -400px;
+    top: 10px;
+}
+
+button {
+    border-style: none;
+    text-align: center;
+    outline: 0;
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+#enterMapName{
+    position: absolute;
+    cursor: default;
+    color: #006600;
+    font: bold 40px bloodFont;
+    left: 80%;
+    top: 15%;    
+}
+
+#mapName{
+    padding:9px;
+    margin: 0;
+    border-radius:5px;
+    -webkit-box-shadow: 
+        0 0px 0 #ccc,
+        0 0px #fff inset;
+    color:black;
+    border:none;
+    outline:none;
+    font: bold 25px bloodFont;
+    border: 5px solid #800000;
+}
+
+#mapBtn{
+    position: absolute;
+    left: 80%;
+    top: 30%;
+    color: #800000;
+    font: bold 40px bloodFont;
+}
+
+#blocoBtn{
+    position: absolute;
+    left: 10%;
+    top: 15%;
+    width: 7%;
+    height: 14%;
+}
+
+#bloco2Btn{
+    position: absolute;
+    left: 10%;
+    top: 30%;
+    width: 7%;
+    height: 14%;
+}
+
+#bloco3Btn{
+    position: absolute;
+    left: 10%;
+    top: 52%;
+    width: 7%;
+    height: 14%;
+}
+
+#flagBtnImg{
+    position: absolute;
+    left: 10%;
+    top: 67%;
+    width: 7%;
+    height: 14%;
+}
+
+#lixoBtnImg{
+    position: absolute;
+    left: 80%;
+    top: 50%;
+    width: 10%;
+    height: 17%;
+}
+
+#escolha{
+    position: absolute;
+    color: #800000;
+    font: bold 45px bloodFont;
+    left: 4%;
+    top: 1%;   
+}
+
+#soundBtnImg{
+    position: absolute;
+    left: 65%;
+    top: 82%;
+    width: 5%;
+    height: 10%;
+}
+
+#backBtnImg{
+    position: absolute;
+    left: 27%;
+    top: 82%;
+    width: 5%;
+    height: 10%;
+}
